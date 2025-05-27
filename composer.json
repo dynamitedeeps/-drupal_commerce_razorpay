@@ -9,5 +9,14 @@
   "require": {
     "drupal/commerce": "^2.19 || ^3",
     "razorpay/razorpay": "^2.8"
-  }
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "web/modules/contrib/drupal_commerce_razorpay",
+      "options": {
+        "symlink": false
+      }
+    }
+  ]
 }
