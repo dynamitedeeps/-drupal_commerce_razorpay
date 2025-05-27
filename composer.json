@@ -1,5 +1,5 @@
 {
-  "name": "drupal/drupal_commerce_razorpay",
+  "name": "dynamitedeeps/drupal_commerce_razorpay",
   "type": "drupal-module",
   "description": "Provides Commerce integration for Razorpay.",
   "keywords": ["Drupal"],
@@ -12,11 +12,8 @@
   },
   "repositories": [
     {
-      "type": "path",
-      "url": "web/modules/contrib/drupal_commerce_razorpay",
-      "options": {
-        "symlink": false
-      }
+      "type": "vcs",
+      "url": "https://github.com/dynamitedeeps/drupal_commerce_razorpay"
     }
   ]
 }
